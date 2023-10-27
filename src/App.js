@@ -1,8 +1,10 @@
 import logo from './media/homepage/logo.png';
 import iblogo from './media/homepage/iblogo.png'
-import bgimage from './media/homepage/bgimage.jpg'
+import bgimage from './media/homepage/bgg.jpg'
 import symbols from './media/homepage/Math.png'
 import Typewriter from "typewriter-effect";
+import Marquee from "react-fast-marquee";
+import chalkboard from './media/homepage/board.png'
 import './App.css';
 
 
@@ -42,12 +44,19 @@ export default function App() {
         </div>
     </nav>
 </header>
-<section id="Home" style={{ backgroundImage: `url(${bgimage})`}} class=" absolute  w-full aspect-auto bg-cover bg-no-repeat pb-60 ">
-  <h1 class="text-white text-4xl sm:text-6xl  text-center sm:text-left font-bold mt-40 ml-0 sm:ml-16 "> Welcome to IBMathMasters </h1>
-  <p class="text-white mt-8 ml-0 text-2xl text-center sm:text-3xl sm:text-left sm:ml-16"> Are you struggling with SL Math Calculus?</p>
-  <p class="text-white mt-3 ml-0 text-2xl text-center sm:text-3xl sm:ml-16">Our page provides in-depth tutorials and challenging questions to help you achieve your goals.</p>
+<section id="Home" style={{ backgroundImage: `url(${bgimage})`}} class=" h-full w-full aspect-auto bg-cover bg-no-repeat pt-9 pb-60">
+  <h1 class="text-white text-4xl sm:text-6xl  text-center  font-bold mt-40 ml-0  "> Welcome to IBMathMasters! </h1>
+  <p class="text-white mt-12 ml-0 text-2xl text-center sm:text-3xl"> Are you struggling with SL Math Calculus?</p>
+  <p class="text-white mt-4 ml-0 text-2xl text-center sm:text-3xl">Our page provides in-depth tutorials and challenging questions to help you achieve your goals.</p>
+</section>
+<section class="bg-black h-full w-full aspect-auto bg-cover bg-no-repeat pb-96">
+  <div style={{ backgroundImage: `url(${chalkboard})`}}>
+    <h1>
+      Why Students Chose Us
+    </h1>
+  </div>
 </section>
 
 </body>
-  )
-}
+  )}
+
