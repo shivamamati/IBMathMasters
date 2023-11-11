@@ -1,8 +1,8 @@
 import logo from './media/homepage/logo.png';
 import iblogo from './media/homepage/iblogo.png'
-import bgimage from './media/homepage/bgg.jpg'
+import bgimage from './media/homepage/bgimage.jpg'
 import symbols from './media/homepage/Math.png'
-import Typewriter from "typewriter-effect";
+import Typweriter from "typewriter-effect";
 import Marquee from "react-fast-marquee";
 import chalkboard from './media/homepage/board.png'
 import './App.css';
@@ -44,18 +44,40 @@ export default function App() {
         </div>
     </nav>
 </header>
-<section id="Home" style={{ backgroundImage: `url(${bgimage})`}} class=" h-full w-full aspect-auto bg-cover bg-no-repeat pt-9 pb-60">
-  <h1 class="text-white text-4xl sm:text-6xl  text-center  font-bold mt-40 ml-0  "> Welcome to IBMathMasters! </h1>
-  <p class="text-white mt-12 ml-0 text-2xl text-center sm:text-3xl"> Are you struggling with SL Math Calculus?</p>
+<section id="Home" style={{ backgroundImage: `url(${bgimage})`}} class=" sm:h-full w-full aspect-auto bg-cover bg-no-repeat pt-9 pb-60">
+  <h1 class="text-white text-4xl sm:text-6xl  text-center  font-bold mt-16 sm:mt-40 ml-0  "> Welcome to IBMathMasters! </h1>
+  <p class="text-white mt-8 ml-0 text-2xl text-center sm:text-3xl"> Are you struggling with SL Math Calculus?</p>
   <p class="text-white mt-4 ml-0 text-2xl text-center sm:text-3xl">Our page provides in-depth tutorials and challenging questions to help you achieve your goals.</p>
 </section>
-<section class="bg-black h-full w-full aspect-auto bg-cover bg-no-repeat pb-96">
-  <div style={{ backgroundImage: `url(${chalkboard})`}}>
-    <h1>
-      Why Students Chose Us
-    </h1>
-  </div>
-</section>
+<section id="About-me" class="h-max max-w-full bg-cover bg-no-repeat aspect-auto bg-black">
+            <div class="w-max-full mx-2 lg:mx-10 bg-w">
+                <div class=" h-full">
+                    <div class="w-full px-6">
+                        <h1 class="underline text-4xl font-body text-white font-bold text-center pt-20">About IBMathMasters</h1>
+                        <p class=" pt-8 pb-16 lg:px-8 text-sm lg:text-xl font-body leading-10 text-center text-white "> Welcome to IBMathMasters, your go-to destination for mastering the intricacies of calculus in the International Baccalaureate (IB) program! Founded by IB students for IB students, our mission is to provide a dynamic platform where learners can navigate the challenging world of calculus with confidence and clarity.
+
+At IBMathMasters, we understand the unique needs and pressures faced by IB students tackling the complexities of calculus. That's why we've created a supportive community that fosters collaborative learning and knowledge exchange. Whether you're diving into the basics of limits, exploring the nuances of derivatives, or delving into the depths of integrals, we've got you covered.
+
+What sets IBMathMasters apart is our commitment to student-driven education. Our content is crafted by fellow IB students who have successfully navigated the IB calculus curriculum. We offer comprehensive resources, from concept explanations and problem-solving strategies to practice exams and study guides, all tailored to the specific requirements of IB calculus.
+
+Join our community of IBMathMasters to:
+
+Access Comprehensive Resources: Dive into well-structured content designed to demystify calculus concepts and guide you through the curriculum.
+
+Collaborate with Peers: Connect with fellow IB students worldwide, sharing insights, tips, and support in our collaborative community forum.
+
+Ace Your Exams: Prepare confidently with our curated collection of practice exams, revision materials, and real-world applications of calculus concepts.
+
+Stay Updated: Stay informed about the latest IB curriculum changes, exam trends, and study strategies to stay ahead of the curve.
+
+Whether you're a seasoned calculus enthusiast or just starting your IB journey, IBMathMasters is your trusted companion. Empower yourself with the knowledge and skills you need to excel in IB calculus. Let's master math together!</p>
+                    </div>
+                    <div class="flex justify-center align-middle m-auto border pt-8 lg:pt-0 mb-8 lg:mb-0">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
 
 </body>
   )}
